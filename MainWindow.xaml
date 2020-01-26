@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="500" FontSize="15"
+        Title="Photo from photo" Height="450" Width="500" FontSize="15"
         Style="{StaticResource Dark}">
 
     <Grid>
@@ -54,9 +54,9 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"
-                       Text="Photo from Photo" HorizontalAlignment="Stretch"
+                       Text="Photo from photo" HorizontalAlignment="Stretch"
                        TextAlignment="Center" FontSize="25"
-                       FontWeight="Bold" TextDecorations="Underline" Tag="Title" />
+                       FontWeight="Bold" TextDecorations="Underline" />
 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Select image to construct: " TextAlignment="Right" />
                 <TextBox Grid.Row="1" Grid.Column="1"  />
